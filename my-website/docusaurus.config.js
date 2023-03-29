@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Проект для ИПР',
   tagline: 'DevOps, CI/CD, Infrastructure-as-Code, Configuration-as-Code',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://fish-train.github.io',
+  baseUrl: '/DevOps_Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
