@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Практики и инструменты DevOps
 
+CI/CD – подход к разработке, при котором задачи сборки, публикации, тестирования продукта полностью или частично автоматизированы.
+
 Основные практики DevOps (CI/CD), связанные в циклический автоматизированный процесс:
 
 - Непрерывная интеграция
@@ -68,10 +70,31 @@ sidebar_position: 2
 
 ![periodic tanble of devops tools](/img/periodic_tanble_of_devops_tools.png)
 
+[38 лучших CI/CD-инструментов в 2022 году](https://habr.com/ru/companies/southbridge/articles/706646/)
+
 ### Jenkins
 
-### teamcity
+Jenkins — программная система с открытым исходным кодом на Java, предназначенная для обеспечения процесса непрерывной интеграции программного обеспечения.
 
-### gilab ci
+- [Документация Jenkins](https://www.jenkins.io/doc/)
 
-### circle ci
+### TeamCity
+
+TeamCity — серверное программное обеспечение от компании JetBrains, написанное на языке Java, билд-сервер для обеспечения непрерывной интеграции.
+
+- [Документация TeamCity](https://www.jetbrains.com/help/teamcity/teamcity-documentation.html)
+- [Руководство по CI/CD в TeamCity](https://www.jetbrains.com/ru-ru/teamcity/ci-cd-guide/)
+- [TeamCity: настраиваем CI/CD в вашей команде](https://habr.com/ru/companies/tinkoff/articles/532546/)
+
+### GitLab CI
+
+GitLab CI — инструмент, встроенный в GitLab для автоматизации рутинных задач, возникающих в процессе разработки программного обеспечения. 
+
+- [Документация GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+- [Дока о GitLab CI/CD](https://doka.guide/tools/gitlab-ci-cd/)
+
+### Circle CI
+
+CircleCI — это платформа непрерывной интеграции и непрерывной доставки.
+
+- [Документация CircleCI](https://circleci.com/docs/)
