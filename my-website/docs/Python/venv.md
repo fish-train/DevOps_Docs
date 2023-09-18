@@ -33,6 +33,8 @@ sidebar_position: 2
    \Scripts\activate.bat
    ```
 
+[Документация venv](https://docs.python.org/3/library/venv.html)
+
 ## virtualenv
 
 Чтобы создать виртуальное окружение с помощью virtualenv:
@@ -54,3 +56,5 @@ sidebar_position: 2
    ```bash
    .\env_name\Scripts\activate.bat
    ```
+
+[Документация virtualenv](https://virtualenv.pypa.io/en/latest/index.html)
