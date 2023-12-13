@@ -101,3 +101,9 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
 ```
+
+### Ручная сборка PDF
+
+```
+npx docs-to-pdf --initialDocURLs="https://fish-train.github.io/DevOps_Docs/" --contentSelector="article" --paginationSelector="a.pagination-nav__link.pagination-nav__link--next" --excludeSelectors=".margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page" --coverImage="https://fish-train.github.io/DevOps_Docs/img/logo_light.png" --coverTitle="ИПР"
+```

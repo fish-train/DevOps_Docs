@@ -4,12 +4,20 @@ sidebar_position: 1
 
 # Configuration-as-Code
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Configuration as Code** - принцип, схожий с Infrastructure as Code, позволяет хранить и распространять конфигурацию операционной системы представленную в виде кода.
+
+Пример конфигураций:
+
+- установка новых пакетов
+- добавление или удаление пользователей
+- настройка файрволла
+- поиск и конфигурация разделов в дисковой подсистеме.
+
+Преимущества Configuration-as-Code:
+
+- Упрощенный аудит конфигурации систем, так как вся конфигурация отражена в коде
+- Возможность автоматизации и ускорение работы с серверами. Когда у вас два сервера - сделать одинаковые действия на системах каждого из них в принципе представляется скорее рутиной, нежели проблемой. Когда серверов 5000 - это практически невозможно с точки зрения временных затрат, плюс быть уверенным в отсутствии ошибок - тоже сложно
+- Безопасность - возможность автоматизации даёт возможность автоматического обновления пакетов и систем на удаленных хостах. Добавляет возможность лимитированных и строго авторизованных подключений, возможность аудита пользователей и изменений чтобы точно знать кто и когда вносил любые изменения.
 
 import DocCardList from '@theme/DocCardList';
 
