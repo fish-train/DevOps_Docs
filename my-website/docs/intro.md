@@ -28,6 +28,9 @@ import myImageUrl from './assets/photo.png';
 	- DevOps, CI/CD
 	- Infrastructure-as-Code
 	- Configuration-as-Code
+  - CSS
+  - Jinja
+  - Python venv 
 
 ## Ссылки {#links}
 

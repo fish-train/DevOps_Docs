@@ -8,8 +8,12 @@ sidebar_position: 1
 
 ## Было
 
-![Language switcher](./img/old.png)
+![Enterprise](./img/old.png)
+
+Дизайн используется в Enterprise версии: https://enterprise.boomq.io/docs/en/
 
 ## Стало
 
-![Language switcher](./img/new.png)
+![Cloud](./img/new.png)
+
+Дизайн используется в Cloud версии: https://pflb.us/docs/en/
